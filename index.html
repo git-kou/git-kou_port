@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>私のプロフィール</title>
+    <style>
+body {
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    min-width:1200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width:100%;
+}
+
+header {
+    background:url("img/niji.webp");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:200px;
+}
+
+.header-logo {
+    margin:0;
+    font-size:50px;
+    color:#FAFAFA;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:200px;
+}
+
+.wrapper {
+    width:900px;
+    margin:0 auto;
+}
+
+#port {
+    padding:20px 0 50px 0;
+}
+
+#port .flex-wrap {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#port .mouse {
+    box-shadow: 5px 5px 10px;
+    width:45%;
+    margin:20px 0;
+    background-color:#FAFAFA;
+}
+
+@media(min-width:601px) {
+
+#port .mouse:hover {
+    box-shadow:0 0 0;
+    transform: translateY(5px);
+    transition:0.5s;
+}
+
+}
+
+#port .port-text {
+    height:300px;
+    padding:10px;
+    color:black;
+}
+
+#port .port-text h3 {
+    font-size:20px;
+}
+
+footer {
+    background-image: url("img/niji.webp");
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:50px;
+}
+
+.footer-logo {
+    margin:0;
+    color:#FAFAFA;
+    text-align:center;
+    font-size:80%;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:600px) {
+
+    body {
+        min-width:initial;
+    }
+
+    .flex-wrap {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        width:90%;
+    }
+
+    header {
+        height:initial;
+    }
+
+    .header-logo {
+        font-size:min(15vw,50px);
+    }
+
+    #port .mouse {
+        width:100%;
+        transition:0.1s;
+    }
+
+    #port .mouse:active {
+        box-shadow:0 0 0;
+        transform: translateY(5px);
+        transition:0.1s;
+    }
+
+    #port .port-text {
+        height:initial;
+        min-height:300px;
+    }
+}
+
+    </style>
+  </head>
+<body>
+<header>
+    <h1 class="header-logo">My Portfolio</h1>
+</header>
+    <section id="port">
+        <div class="wrapper">
+            <h3>私が今までに作った架空のポートフォリオサイトです</h3>
+            <h4>※Web電卓以外のサイトはスマホ版レスポンシブにも対応済みです。</h4>
+            <div class="flex-wrap">
+                
+                <div class="mouse"><a href="https://git-kou.github.io/git-kou/" target="_blank">
+                    <img src="img/port1.png">
+                    <div class="port-text">
+                    <h3>小川塾（架空の塾サイト）</h3>
+                    <p>最初に作ったポートフォリオです。<br>
+                       とにかくシンプルで見やすいサイトにしました。</p>
+                    <p>※製作時間：アイディア構想時間込みでおよそ5時間</p>
+                    </div>
+                </a></div>
+                
+                <div class="mouse"><a href="https://git-kou.github.io/git-kou_rese/" target="_blank">
+                    <img src="img/port2.png">
+                    <div class="port-text">
+                    <h3>レストラン中野（架空のレストランサイト）</h3>
+                    <p>2つ目に作ったポートフォリオです。<br>
+                       ファミレスをイメージした配色にしました。<br>
+                       スクロール時のアニメーションを多めにつけてみました。</p>
+                    <p>※製作時間：アイディア構想時間込みでおよそ16時間</p>
+                    </div>
+                </a></div>
+                
+                <div class="mouse"><a href="https://git-kou.github.io/git-kou_nagoya/" target="_blank">
+                    <img src="img/port3.png">
+                    <div class="port-text">
+                    <h3>名古屋市の観光案内サイト（架空の観光案内サイト）</h3>
+                    <p>3つ目に作ったポートフォリオです。<br>
+                       地域ごとにすぐ調べられるように、地域ごとにボタンを設置し、折り紙のように開いたり折り畳んだりできるようにしました。</p>
+                    <p>※製作時間：アイディア構想時間込みでおよそ16時間</p>
+                    </div>
+                </a></div>
+                
+                <div class="mouse"><a href="https://git-kou.github.io/git-kou_hospi/" target="_blank">
+                    <img src="img/port4.png">
+                    <div class="port-text">
+                    <h3>小川病院（架空の病院のサイト）</h3>
+                    <p>4つ目に作ったポートフォリオです。<br>
+                       背景画像に白みを付けたり、テキストエリアの背景色を透けて見えるようにしたりと、病院らしいデザインにこだわって作ってみました。</p>
+                    <p>※製作時間：アイディア構想時間込みでおよそ22時間</p>
+                    </div>
+                </a></div>
+                
+                <div class="mouse"><a href="https://git-kou.github.io/git-kou_sato2/" target="_blank">
+                    <img src="img/port5.png">
+                    <div class="port-text">
+                    <h3>佐藤農園（架空の農園サイト）</h3>
+                    <p>5つ目に作ったポートフォリオサイトです。<br>
+                       4つ目を制作した後に学習した少し高度なJクエリを導入してみました。</p>
+                       <p>※制作時間：アイディア構想時間込みでおよそ16時間</p>
+                    </div>
+                </a></div>
+                
+                <div class="mouse"><a href="https://git-kou.github.io/git-kou_dentaku/" target="_blank">
+                    <img src="img/port6.png">
+                    <div class="port-text">
+                    <h3>Web電卓</h3>
+                    <p>6つ目に作ったポートフォリオです。CSSを駆使して本物の電卓に近い感じになるようなデザインを心がけて作ってみました。<br>
+                       実際の電卓に真似て、CLEARキーやBackスペースキーの実装も行ってみました。また、計算式に矛盾が生じないように一つ一つ処理のコードを細かく書きました。</p>
+                       <p>※製作時間：アイディア構想時間込みでおよそ6時間</p>
+                    </div>
+                </a></div>
+
+                <div class="mouse"><a href="https://git-kou.github.io/git-kou_cafe/" target="_blank">
+                    <img src="img/port7.png">
+                    <div class="port-text">
+                    <h3>マイルドカフェ(架空の喫茶店サイト)</h3>
+                    <p>7つ目に作ったポートフォリオです。2つ目と4つ目のポートフォリオで扱ったアニメーションを融合してみました。<br>
+                       また、CSSのコードだけで木の板にメニューが書いてある紙をセロハンテープで貼り付けたような雰囲気を作ってみました。</p>
+                       <p>※製作時間：アイディア構想時間込みでおよそ18時間</p>
+                    </div>
+                </a></div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-logo">2024&copy;my Portfolio</div>
+    </footer>
+</body>
+</html>
